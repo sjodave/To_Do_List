@@ -1,0 +1,59 @@
+*,
+:after,
+:before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.head {
+  text-align: center;
+  padding: 5vh;
+  color: white;
+  background-image: url("background.jpeg");
+  background-size: cover;
+}
+
+#addTodo {
+  display: none;
+  width: max-content;
+  text-align: center;
+  padding: 5px;
+}
+.task {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+span:hover {
+  cursor: pointer;
+}
+input {
+  padding: 1vh;
+}
+button {
+  padding: 1vh;
+}
+h1 {
+  margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 600px) {
+  #listElements {
+    display: flex;
+    justify-content: center;
+  }
+  #list {
+    width: 60vw;
+  }
+}
+li {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1px;
+}
