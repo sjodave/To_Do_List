@@ -49,7 +49,7 @@ h1 {
 }
 li {
   display: grid;
-  grid-template-columns: auto 80% auto;
+  grid-template-columns: auto 70% auto auto;
   align-items: center;
   border-radius: 5px;
   padding: 10px;
